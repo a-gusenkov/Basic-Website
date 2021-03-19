@@ -1,0 +1,298 @@
+@font-face{
+	src: url(../Fonts/Oswald.ttf);
+	font-family: oswald;
+}
+*{
+	 margin: 0;
+     padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image: linear-gradient(#FFFFFF,#DBECF3);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.name-responsive{
+	width:100%;
+
+}
+.responsive-hr{
+	width: 100%;
+
+}
+
+.name{
+	text-align: center;
+	color:#739EB0 ;
+	font-size: 2.5em;
+	font-family:oswald;
+	text-decoration: underline;
+	text-decoration-color: #fff;
+	
+}
+.homepage-div{
+	margin: 0 auto;
+	border: 0.5em solid #fff;
+	width: 50%;
+	height: 30%;
+	background-color: #739EB0 ;
+	
+}
+/*Vertical menu in index page. Styles div box and mouse interaction.*/
+.vertical-menu-index{
+	text-align: center;
+	padding: 0.625em 0.01%;
+
+}
+.vertical-menu-index li{
+	list-style: none;
+	line-height: 0.625em;
+	padding: 0.625em 0.01%;
+	background-color: #CDDFE6 ;
+	border: 0.1em solid #fff;
+	margin: 2em 1.25em;	
+
+}
+.vertical-menu-index li a{
+	display: block;
+	text-decoration: none;
+	font-size: 1.4em;
+	font-family:oswald;
+	color:#000;
+	padding: 0.35em;
+	
+}
+.vertical-menu-index li:hover{
+	background-color: #fff;
+}
+/*INDEX CSS ENDED*/
+/*About Me CSS Starts */
+.menu{
+	
+	width: 100%;
+	border: 0.2em solid #fff;
+	background-color: #92BED0 ;
+}
+.header{
+	margin: 2%;
+	font-family:oswald;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 0.25em;
+	border: 0.2em solid #fff;
+	background-color: #92BED0;
+}
+.sidebar{
+	float: left;
+	width: 20.0%;
+	margin: 0;
+}
+h2{
+	margin: 0.25em 0;
+	font-family: oswald;
+	font-size: 1.5em;
+	text-decoration: underline;
+	text-decoration-color: #fff;
+}
+/*Creates uniform style for site content. */
+.content{
+	float: right;
+	width:77.0%;
+	margin: 0 2% 0 0;
+	font-family:verdana;
+	font-size: 1.25em;
+	border: 0.2em solid #fff;
+	background-color: #92BED0  ;
+	padding: 1em;
+}
+.image{
+	margin: 1em 0; 
+}
+.images{ 
+	width: 32%;
+}
+.first-par{
+	text-indent: 4%
+}
+.second-par{
+	text-indent: 4%
+}
+/*List image and list styling. */
+.list-image{
+float: right;
+width: 50%;
+height: 40%;
+}
+.ten-thing-div{
+	width: 100%;
+	padding: 0.6em 1.25em;
+	
+}
+.ten-thing-list{
+	width: 50%;
+}
+.ten-thing-list li{
+	padding: 0.2em 0;
+	font-family: verdana;
+	
+	text-decoration: underline;
+	text-decoration-color: rgba(255,255,255,0.25);
+}
+/*List image and list styling. When table text overflows user can scroll to view remaining content.*/
+table{ 
+	width:100%;
+	table-layout: fixed;
+}
+
+caption{
+	text-align: center;
+	font-family: oswald;
+	text-decoration: underline;
+	text-decoration-color: #fff;
+	font-size: 2em;
+}
+table,td,th{
+	border: 0.0625em solid #fff;
+	border-collapse: collapse;
+}
+caption,td,th{
+	padding: 2%;
+}
+th{
+	font-family: oswlad;
+	font-size: 1em;
+	background-color:#CDDFE6;
+	overflow-y: scroll;
+	
+
+}
+td{
+	font-size: 0.8em;
+	background-color: #B1D0DD;
+	font-family: verdana;
+	overflow-y: scroll;
+
+}
+table tr:first-child th:first-child{
+	border-color: #92BED0;
+	background-color: #92BED0;
+	border-right: #fff;
+	border-bottom: #fff;
+}
+
+h3{
+	padding: 0.6em;
+	font-family: verdana;
+}
+/*Horizontal top menu changing sizing of each cell and changes colors when mouse hovers */
+.horizontal-menu{
+	list-style-type: none;
+	margin: 1%;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+	overflow: auto;	
+
+}
+.horizontal-menu li{
+	float: left;
+	background-color: #CDDFE6  ;
+	width: 33.33%;	
+	border-right: 0.18em solid #fff;
+}
+.horizontal-menu li a{ 
+	display:block;
+	color: #000;
+	font-family:oswald;
+	font-size: 1em;
+	padding: 0.625em;
+	text-decoration: none;
+}
+.horizontal-menu li:last-child {
+  border-right: none;
+}
+.horizontal-menu li:hover{
+	background-color: #fff;
+}
+/* Vertical Menu styling making it scroll as the user scrolls. */
+.vertical-menu{
+	position: fixed;
+	top:0;
+	width: 22%;
+	margin-top: 13em;
+
+}
+.vertical-menu li{
+	list-style: none;
+	padding: 0.625em 0.01%;
+	background-color: #CDDFE6 ;
+	border: 0.1em solid #fff;
+	margin: 1.255em;
+}
+.vertical-menu li a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: bold;
+	font-family:oswald;
+	color:#000;
+	
+}
+.vertical-menu li:hover{
+	background-color: #fff;
+}
+
+/* makes the website responsive and switches layout with a smaller screen */
+@media only screen and (max-width: 720px){
+	.homepage-div{
+		width: 100%;
+	}
+	.sidebar{
+		width: 100%;
+	}
+	header{
+		font-size: 0.5em;
+	}
+
+	/* a smaller screen would not need a scroll menu I've made 
+	it hidden */
+	.vertical-menu{
+		visibility: hidden;
+	}
+	.content{
+		width: 96%;
+		margin:2%;
+	}
+	.list-image,.images{
+		width: 100%;
+		padding: 0 0 1em 0;
+	}
+ 	.ten-thing-list{
+	width: 100%;
+    }
+  
+	.horizontal-menu li{
+	
+	border: 0.18em solid #fff;
+	width: 100%;	
+	}
+	.car-interest{
+		width: 100%;
+		overflow: scroll;
+	}
+	th{
+		font-size: 0.5em;
+		overflow: scroll;
+	
+	}
+	td{
+		font-size: 0.4em;
+		background-color: #B1D0DD;
+		overflow: scroll;
+
+	}
+
+
+}
+
