@@ -14,7 +14,7 @@ Fully responsive changes layout when size of screen changes. Vertical side menu 
 <img src="https://user-images.githubusercontent.com/70613782/111742012-cdbd3f80-885d-11eb-933e-8f20a11e0581.png" width="500" height="350"/>
 
 
-What the responsive site looks like. 
+An example of what the responsive site looks like. 
 
 <img src="https://user-images.githubusercontent.com/70613782/111740924-fa705780-885b-11eb-971c-651c918c2aa2.png" width="400" height="350"/>
 
